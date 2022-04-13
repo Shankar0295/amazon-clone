@@ -1,0 +1,79 @@
+.navbar{
+    background-color: #131921;
+    display: flex;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    align-items: center; 
+}
+.navbar__logo{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.navbar__locationBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+.navbar__locationdetails{
+    display: flex;
+    flex-direction: column;
+}
+.navbar__locationIcon{
+    color: var(--font-color-primary);
+}
+.navbar__search{
+    display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 10px 4px 10px 3px;
+  margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar__searchInput{
+    height: 25px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+    line-height: 15px;
+    color: #111;
+    font-size: 15px;
+    outline: 0;
+    font-size: 15px;
+}
+.navbar__searchIcon{
+    color: var(--font-color-primary);
+    background-color : #febd69;
+    padding: 5px 10px 5px 10px;
+    height: 29px!important;
+    border-radius: 0px 5px 5px 0px;
+}
+.navbar__items{
+    display: flex;
+}
+.navbar__option{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.navbar__lineOne {
+    color: var(--font-color-secondary);
+    font-size: 12px;
+}
+.navbar__lineTwo {
+    color: var(--font-color-primary);
+    font-size: 14px;
+    font-weight: 800;
+}
+.navbar__cartIcon{
+    color: var(--font-color-primary);
+}
+.navbar__cartlist{
+    color: #f08804;
+    font-weight: 700;
+    padding-left: 5px;
+}
