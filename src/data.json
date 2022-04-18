@@ -1,29 +1,92 @@
 {
-"first" : [
-    {
+    "laptops" : [{
         "id":"12321341",
         "title":"Lenovo Chromebook S330 Laptop, 14-Inch FHD (1920 x 1080) Display, MediaTek MT8173C Processor, 4GB",
         "price" : 255.00,
         "rating" : 5,
-        "image" : "https://st2.myideasoft.com/idea/bx/06/myassets/products/558/lenovo-chromebook-s330-dizustu-bilgisayar-14-inc-fhd-1920-x-1080-9426-jpg.jpeg?revision=1602941394"
+        "image" : "https://m.media-amazon.com/images/I/61q6x-ll5FL._AC_UY218_.jpg"
     },
     {
+        "id" : "90829332",
+        "title" : "Dell New Vostro 3405 Laptop AMD Ryzen 3-3250U 14 inches FHD Display, 8GB DDR4, 512GB SSD,Black (D552235WIN9B), 1.59Kgs",
+        "price" : 46342.00,
+        "rating" : 4,
+        "image" : "https://m.media-amazon.com/images/I/51IsQHLroNL._AC_UY218_.jpg"
+        },
+        {
+            "id":"90829333",
+            "title":"Acer Aspire TC-895-UA92 Desktop, 10th Gen Intel Core i5-10400 6-Core Processor, 12GB 2666MHz DDR4, 512GB",
+            "price":505.99,
+            "rating":4,
+            "image":"https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzYxQSUyQksxTWpUZUwuX1NTNDAwXy5qcGc.jpg"
+        },
+        {
+            "id":"90829334",
+            "title" : "Lenovo IdeaPad Slim 3 10th Gen Intel Core i5 15.6'' FHD IPS Thin & Light Laptop + (8GB/512GB SSD/GTX 1650 Graphics/Windows 11 Home/RGB), AN515-57",
+            "price":50490,
+            "rating":4,
+            "image":"https://m.media-amazon.com/images/I/61Dw5Z8LzJL._AC_SR180,120_QL70_.jpg"
+        },
+        {
+            "id":"90829335",
+            "title" : "Lenovo IdeaPad 3 Intel Celeron N4020 14'' HD Thin & Light Laptop (4GB/256GB SSD/Windows 11/MS Office 2021/Platinum Grey/1.5Kg), 81WH007KIN",
+            "price":82800,
+            "rating":4,
+            "image":"https://m.media-amazon.com/images/I/61B+PQExFWL._AC_UY218_.jpg"
+        },
+        {
+            "id":"90829336",
+            "title" : "Acer Nitro 5 Gaming Laptop/ 11th Gen Intel Core i5-11400H Processor 6 core/ 15.6''(39.6cms) FHD 144 Hz Display + Xbox Game Pass Ultimate",
+            "price":63990,
+            "rating":4,
+            "image":"https://m.media-amazon.com/images/I/61B+PQExFWL._AC_UY218_.jpg"
+        }
+],
+
+    "clothes" : [{
         "id":"49538094",
         "title":"Gildan Men's Fleece Hooded Sweatshirt, Style G185",
         "price" : 39.99,
         "rating" : 4,
         "image" : "https://images-na.ssl-images-amazon.com/images/I/41JKAefCFFL.jpg"
-    }
-],
-"second" : [
-    {
-        "id":"4903850",
-        "title":"Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor",
-        "price" : 199.99,
-        "rating" : 3,
-        "image" : "https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+    },
+    {   
+        "id":"49538095",
+        "title":"Scott International Men's Regular Fit T-Shirt (Pack of 3)",
+        "price" : 479.00,
+        "rating" : 4,
+        "image" : "https://m.media-amazon.com/images/I/71vp8Lec9JL._AC_UL320_.jpg"
     },
     {
+            "id":"49538096",
+            "title":"Ben Martin Men's Relaxed Jeans Denim (Pack of 3)",
+            "price" : 592.00,
+            "rating" : 3,
+            "image" : "https://m.media-amazon.com/images/I/616xchp1ECL._AC_UL320_.jpg"
+    },
+    {
+        "id":"49538097",
+        "title":"SOFTSPUN Microfiber Cloth - 4 pcs - 40x40 cms - 340 GSM Grey- Thick Lint & Streak-Free Multipurpose Cloths - Automotive Microfibre Towels for Car Bike Cleaning Polishing Washing & Detailing",
+        "price" : 299.00,
+        "rating" : 3,
+        "image" : "https://m.media-amazon.com/images/I/713uLCV6ZML._AC_UL320_.jpg"
+    },
+    {
+        "id":"49538098",
+        "title":"MA Baby Boys and Baby Girls Printed Cotton Baby Bodysuits Onesie one Piece Romper t Shirt for New Born Infant Toddlers Baby Dress Clothing Set of 4 First Gift for New Born Baby",
+        "price" : 749.00,
+        "rating" : 3,
+        "image" : "https://m.media-amazon.com/images/I/81n7pG9cWPL._AC_UL320_.jpg"
+    },
+    {
+        "id":"49538099",
+        "title":"Fancy Walas Presents New Born Baby Summer Wear Baby Clothes 5Pcs Sets 100% Cotton Baby Boys Girls Unisex Baby Cotton/Summer Suit Infant Clothes First Gift for New Born Baby",
+        "price" : 399.00,
+        "rating" : 4,
+        "image" : "https://m.media-amazon.com/images/I/61WS1eY4LhL._AC_UL320_.jpg"
+    }],
+    
+    "gadgets" : [{
         "id":"23445930",
         "title":"Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric",
         "price" : 98.99,
@@ -36,54 +99,119 @@
         "price":598.99,
         "rating":4,
         "image":"https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
-    }
-],
-    "third" : [
+    },
     {
-    "id" : "90829332",
-    "title" : "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440",
-    "price" : 1094.98,
-    "rating" : 4,
-    "image" : "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-    }
-],
-    "four" : [
-        {
-            "id":"4976850",
-            "title":"Laura Ashley Home - Charlotte Collection - Luxury Ultra Soft Comforter, All Season Premium Bedding Set, Stylish Delicate",
-            "price":171.99,
-            "rating":3,
-            "image":"https://i.pinimg.com/originals/c3/53/2a/c3532a00f5bb24d19f5854e45f5429d7.jpg"
-        },
-        {
-            "id":"3254344345",
-            "title":"Acer Aspire TC-895-UA92 Desktop, 10th Gen Intel Core i5-10400 6-Core Processor, 12GB 2666MHz DDR4, 512GB",
-            "price":505.99,
-            "rating":4,
-            "image":"https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzYxQSUyQksxTWpUZUwuX1NTNDAwXy5qcGc.jpg"
-        }
-    ],
-    "five" : [
-        {
-            "id":"4999850",
-            "title":"Office Chair, FelixKing Ergonomic Desk Chair with Adjustable Height and Lumbar Support Swivel Lumbar Support",
-            "price":139.99,
-            "rating":3,
-            "image":"https://images-na.ssl-images-amazon.com/images/I/71sGpjQ%2BK%2BS._SS400_.jpg"  
-        },
-        {
-            "id":"23448230",
-            "title":"SEIKO 14 Ultra-Modern Watch Face Black & Silver Tone with Quiet Sweep Wall Clock",
-            "price":90.00,
-            "rating":5,
-            "image":"https://images-na.ssl-images-amazon.com/images/I/81QvGMQro9L._SY400.jpg"  
-        },
-        {
+        "id":"4903850",
+        "title":"HONOR Band 5 (MeteoriteBlack) - Waterproof Full Color AMOLED Touchscreen",
+        "price" : 199.99,
+        "rating" : 3,
+        "image" : "https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+    },
+    {
+        "id":"4903851",
+        "title":"E-COSMOS 5V 1.2W Portable Flexible USB LED Light (Colours May Vary, Small) - Set of 2 Pieces up to 14 Day Battery Life",
+        "price" : 59.00,
+        "rating" : 3,
+        "image" : "https://m.media-amazon.com/images/I/61NIlaxPFRL._AC_UL320_.jpg"
+    },
+    {
+        "id":"4903852",
+        "title":"Dell Wireless Keyboard and Mouse - KM3322W,  Anti-Fade & Spill-Resistant Keys, up to 36 Month Battery Life",
+        "price" : 1610.00,
+        "rating" : 4,
+        "image" : "https://m.media-amazon.com/images/I/415yl0HeDQL._AC_UL320_.jpg"
+    },
+    {
+        "id":"4903853",
+        "title":"Cezo 40X60 Magnification Zoom HD,Monocular Telescope for Adults and Children,High Power Telescope Gadget",
+        "price" : 899.00,
+        "rating" : 4,
+        "image" : "https://m.media-amazon.com/images/I/51WUHlne1FL._AC_UL320_.jpg"
+    }],
+
+    "accessories" : [{
             "id":"3254434345",
             "title":"Amazon Basics Nylon USB-A to Lightning Cable Cord, MFi Certified Charger for Apple iPhone, iPad, 4,000",
             "price":12.99,
             "rating":4,
             "image":"https://images-na.ssl-images-amazon.com/images/I/61stA5Z9W0L._SS400_.jpg"
+    },
+    {
+        "id":"3254434346",
+        "title":"HUMBLE® Spiral Charger Cable Protector Data Cable Saver Charging Cord Protective Cable Cover Set of 2 (8 Pieces)",
+        "price":149.00,
+        "rating":4,
+        "image":"https://m.media-amazon.com/images/I/617qYD6cOQL._AC_UY218_.jpg"
+    },
+    {
+    "id":"3254434347",
+    "title":"LUZWE 3in1 Lens Kit for Mobile Phone 0.67X-Wide Angle 180-Degree Fish Eye Set of 3 pieces",
+    "price":299.00,
+    "rating":4,
+    "image":"https://m.media-amazon.com/images/I/61JRqUO8zmL._AC_UY218_.jpg"
+    },
+    {
+        "id":"3254434348",
+        "title":"BLACKSTAR [ ORIGINAL ] Mobile Holder for Car Dashboard - Car Mount - Magnetic Mobile Holder for Car",
+        "price":599.00,
+        "rating":4,
+        "image":"https://m.media-amazon.com/images/I/616LV2-JbVL._AC_UY218_.jpg"
+        },
+        {
+            "id":"3254434349",
+            "title":"ELV Desktop Cell Phone Stand Tablet Stand, Aluminum Stand Holder for Mobile Phone and Tablet (Up to 10.1 inch) - Silver",
+            "price":179.00,
+            "rating":4,
+            "image":"https://m.media-amazon.com/images/I/61vsPLVJQeL._AC_UY218_.jpg"
+        },
+        {
+            "id":"3254434350",
+            "title":"STRIFF PS2_01 Multi Angle Mobile/Tablet Stand. Phone Holder for iPhone, Android, Samsung, OnePlus, Xiaomi.",
+            "price":119.00,
+            "rating":4,
+            "image":"https://m.media-amazon.com/images/I/51de3t4CDhL._AC_UY218_.jpg"
         }
-    ]
+    ],
+    "watches" : [{
+        "id":"23448230",
+        "title":"SEIKO 14 Ultra-Modern Watch Face Black & Silver Tone with Quiet Sweep Wall Clock",
+        "price":90.00,
+        "rating":5,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81QvGMQro9L._SY400.jpg"  
+    },
+    {
+            "id":"23448231",
+            "title":"Fastrack Analog Black Dial Unisex-Adult Watch-38024PP25",
+            "price":799.00,
+            "rating":4,
+            "image":"https://m.media-amazon.com/images/I/61FFBTzKiUL._AC_UL320_.jpg"  
+    },
+    {
+        "id":"23448235",
+        "title":"Sonata Analog Black Dial Men's Watch-NN7924NM01",
+        "price":1149.00,
+        "rating":4,
+        "image":"https://m.media-amazon.com/images/I/61w9ISMyhiL._AC_UL320_.jpg"  
+    },
+    {
+        "id":"23448233",
+        "title":"Amazfit GTR 2e Smart Watch with Curved Design, 1.39 Always-on AMOLED Display, SpO2 & Stress Monitor, Built-in Alexa, Built-in GPS, 24-Day Battery Life, 90+ Sports Models, 50+Watch Faces(Matcha Green)",
+        "price":7999.00,
+        "rating":4,
+        "image":"https://m.media-amazon.com/images/I/61-k8e5XXyL._AC_UY218_.jpg"  
+    },
+    {
+        "id":"23448232",
+        "title":"OnePlus Watch Midnight Black: 46mm dial, Warp Charge, 110+ Workout Modes, Smartphone Music,SPO2 Health Monitoring & 5ATM + IP68 Water Resistance (Currently Android only)",
+        "price":14999.00,
+        "rating":4,
+        "image":"https://m.media-amazon.com/images/I/61FxsUbnavL._AC_UL320_.jpg"  
+    },
+    {
+        "id":"23448236",
+        "title":"boAt Xtend Smartwatch with Alexa Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor, Heart & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor & 5 ATM Water Resistance(Pitch Black)",
+        "price":2999.00,
+        "rating":4,
+        "image":"https://m.media-amazon.com/images/I/61IMRs+o0iL._AC_UL320_.jpg"  
+    }]
 }

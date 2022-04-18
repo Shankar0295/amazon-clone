@@ -17,3 +17,7 @@ code {
   --font-color-primary : #ffffff;
   --font-color-secondary : #cccccc;
 }
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

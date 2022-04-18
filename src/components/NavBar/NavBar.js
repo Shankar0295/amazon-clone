@@ -3,10 +3,35 @@ import './NavBar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import { Link } from 'react-router-dom';
+import { useCartContext } from "../../cartContext";
+
 const NavBar = () => {
+    const [{ cart }] = useCartContext();
+    console.log(cart)
+    // const [latitude, setLatitude] = useState('')
+    // const [longitude, setLongitude] = useState('')
+
+    // const location = () => {
+    //     navigator.geolocation.getCurrentPosition((position) => {
+    //         console.log(position)
+    //         setLatitude(position.coords.latitude)
+    //         setLongitude(position.coords.longitude)
+    //         console.log(latitude)
+    //         const res = fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=cadbcd6f8bba31ae6076c71c4f52b6e2`)
+    //             .then((res) => {
+    //                 console.log(res)
+    //             })
+    //         })
+    //     }
+
+    // useEffect(() => {
+    //     location()
+    // }, [])
+
     return (
         <div className="navbar">
-            <img className="navbar__logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo" />
+            <Link to="/"><img className="navbar__logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo" /></Link>
             <div className="navbar__locationBlock">
                 <div className="navbar__location">
                     <LocationOnOutlinedIcon className="navbar__locationIcon" />
@@ -32,7 +57,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar__locationBlock">
                     <ShoppingCartIcon className="navbar__cartIcon" />
-                    <span className="navbar__cartlist">0</span>
+                    <span className="navbar__cartlist">{cart.length}</span>
                 </div>
             </div>
         </div>
