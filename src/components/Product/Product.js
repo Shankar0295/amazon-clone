@@ -2,7 +2,8 @@ import React from 'react';
 import ProductList from '../../data.json';
 import './Product.css';
 import { Link } from 'react-router-dom';
-import { useCartContext } from '../../cartContext'
+import { useCartContext } from '../../cartContext';
+import CurrencyFormat from 'react-currency-format';
 
 const Product = () => {
     console.log(ProductList)
@@ -42,7 +43,19 @@ const Product = () => {
                                             <p key={i}>⭐</p>
                                         ))}
                                     </div>
-                                    <p className="product__price">&#8377;{item.price}</p>
+                                    <CurrencyFormat
+                                        renderText={(value) => (
+                                            <>
+                                                <h2 className="product__price">{value}</h2>
+                                            </>
+                                        )}
+                                        decimalScale={2}
+                                        value={item.price}
+                                        displayType={"text"}
+                                        thousandSeparator={true}
+                                        prefix={"₹"}
+                                        fixedDecimalScale={true}
+                                    />
                                     <p className="product__date">Get it by <b>Saturday, April 16</b></p>
                                     <p className="product__delivery">FREE Delivery by Amazon</p>
                                     <button onClick={() => addToBasket(item.id, item.title, item.image, item.rating, item.price)}>Add to Cart</button>
@@ -70,7 +83,19 @@ const Product = () => {
                                             <p key={i}>⭐</p>
                                         ))}
                                     </div>
-                                    <p className="product__price">&#8377;{item.price}</p>
+                                    <CurrencyFormat
+                                        renderText={(value) => (
+                                            <>
+                                                <h2 className="product__price">{value}</h2>
+                                            </>
+                                        )}
+                                        decimalScale={2}
+                                        value={item.price}
+                                        displayType={"text"}
+                                        thousandSeparator={true}
+                                        prefix={"₹"}
+                                        fixedDecimalScale={true}
+                                    />
                                     <p className="product__date">Get it by <b>Saturday, April 16</b></p>
                                     <p className="product__delivery">FREE Delivery by Amazon</p>
                                     <button onClick={() => addToBasket(item.id, item.title, item.image, item.rating, item.price)}>Add to Cart</button>
@@ -99,7 +124,19 @@ const Product = () => {
                                             <p key={i}>⭐</p>
                                         ))}
                                     </div>
-                                    <p className="product__price">&#8377;{item.price}</p>
+                                    <CurrencyFormat
+                                        renderText={(value) => (
+                                            <>
+                                                <h2 className="product__price">{value}</h2>
+                                            </>
+                                        )}
+                                        decimalScale={2}
+                                        value={item.price}
+                                        displayType={"text"}
+                                        thousandSeparator={true}
+                                        prefix={"₹"}
+                                        fixedDecimalScale={true}
+                                    />
                                     <p className="product__date">Get it by <b>Saturday, April 16</b></p>
                                     <p className="product__delivery">FREE Delivery by Amazon</p>
                                     <button onClick={() => addToBasket(item.id, item.title, item.image, item.rating, item.price)}>Add to Cart</button>
@@ -127,7 +164,19 @@ const Product = () => {
                                             <p key={i}>⭐</p>
                                         ))}
                                     </div>
-                                    <p className="product__price">&#8377;{item.price}</p>
+                                    <CurrencyFormat
+                                        renderText={(value) => (
+                                            <>
+                                                <h2 className="product__price">{value}</h2>
+                                            </>
+                                        )}
+                                        decimalScale={2}
+                                        value={item.price}
+                                        displayType={"text"}
+                                        thousandSeparator={true}
+                                        prefix={"₹"}
+                                        fixedDecimalScale={true}
+                                    />
                                     <p className="product__date">Get it by <b>Saturday, April 16</b></p>
                                     <p className="product__delivery">FREE Delivery by Amazon</p>
                                     <button onClick={() => addToBasket(item.id, item.title, item.image, item.rating, item.price)}>Add to Cart</button>
@@ -155,7 +204,19 @@ const Product = () => {
                                             <p key={i}>⭐</p>
                                         ))}
                                     </div>
-                                    <p className="product__price">&#8377;{item.price}</p>
+                                    <CurrencyFormat
+                                        renderText={(value) => (
+                                            <>
+                                                <h2 className="product__price">{value}</h2>
+                                            </>
+                                        )}
+                                        decimalScale={2}
+                                        value={item.price}
+                                        displayType={"text"}
+                                        thousandSeparator={true}
+                                        prefix={"₹"}
+                                        fixedDecimalScale={true}
+                                    />
                                     <p className="product__date">Get it by <b>Saturday, April 16</b></p>
                                     <p className="product__delivery">FREE Delivery by Amazon</p>
                                     <button onClick={() => addToBasket(item.id, item.title, item.image, item.rating, item.price)}>Add to Cart</button>

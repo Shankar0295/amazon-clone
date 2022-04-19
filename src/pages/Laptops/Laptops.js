@@ -1,7 +1,24 @@
 import React from 'react'
 import ProductList from '../../data.json';
+import { useCartContext } from '../../cartContext';
+import CurrencyFormat from 'react-currency-format';
 
 const Laptops = () => {
+    const [{ cart }, dispatch] = useCartContext();
+
+    const addToBasket = (id, title, image, rating, price) => {
+        console.log(id, title, image, rating, price)
+        dispatch({
+            type: "ADD_TO_CART",
+            item: {
+                id: id,
+                title: title,
+                image: image,
+                price: price,
+                rating: rating,
+            }
+        })
+    }
     return (
         <div className="product">
             <div className="product__wrapper" style={{ marginTop: 40 }}>
@@ -20,10 +37,22 @@ const Laptops = () => {
                                             <p key={i}>⭐</p>
                                         ))}
                                     </div>
-                                    <p className="product__price">&#8377;{item.price}</p>
+                                    <CurrencyFormat
+                                        renderText={(value) => (
+                                            <>
+                                                <h2 className="product__price">{value}</h2>
+                                            </>
+                                        )}
+                                        decimalScale={2}
+                                        value={item.price}
+                                        displayType={"text"}
+                                        thousandSeparator={true}
+                                        prefix={"₹"}
+                                        fixedDecimalScale={true}
+                                    />
                                     <p className="product__date">Get it by <b>Saturday, April 16</b></p>
                                     <p className="product__delivery">FREE Delivery by Amazon</p>
-                                    <button>Add to Cart</button>
+                                    <button onClick={() => addToBasket(item.id, item.title, item.image, item.rating, item.price)}>Add to Cart</button>
                                 </div>
                             </div>
                         )

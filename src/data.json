@@ -2,7 +2,7 @@
     "laptops" : [{
         "id":"12321341",
         "title":"Lenovo Chromebook S330 Laptop, 14-Inch FHD (1920 x 1080) Display, MediaTek MT8173C Processor, 4GB",
-        "price" : 255.00,
+        "price" : 25000.00,
         "rating" : 5,
         "image" : "https://m.media-amazon.com/images/I/61q6x-ll5FL._AC_UY218_.jpg"
     },
@@ -16,28 +16,28 @@
         {
             "id":"90829333",
             "title":"Acer Aspire TC-895-UA92 Desktop, 10th Gen Intel Core i5-10400 6-Core Processor, 12GB 2666MHz DDR4, 512GB",
-            "price":505.99,
+            "price":50500.00,
             "rating":4,
             "image":"https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzYxQSUyQksxTWpUZUwuX1NTNDAwXy5qcGc.jpg"
         },
         {
             "id":"90829334",
             "title" : "Lenovo IdeaPad Slim 3 10th Gen Intel Core i5 15.6'' FHD IPS Thin & Light Laptop + (8GB/512GB SSD/GTX 1650 Graphics/Windows 11 Home/RGB), AN515-57",
-            "price":50490,
+            "price":50490.00,
             "rating":4,
             "image":"https://m.media-amazon.com/images/I/61Dw5Z8LzJL._AC_SR180,120_QL70_.jpg"
         },
         {
             "id":"90829335",
             "title" : "Lenovo IdeaPad 3 Intel Celeron N4020 14'' HD Thin & Light Laptop (4GB/256GB SSD/Windows 11/MS Office 2021/Platinum Grey/1.5Kg), 81WH007KIN",
-            "price":82800,
+            "price":82800.00,
             "rating":4,
             "image":"https://m.media-amazon.com/images/I/61B+PQExFWL._AC_UY218_.jpg"
         },
         {
             "id":"90829336",
             "title" : "Acer Nitro 5 Gaming Laptop/ 11th Gen Intel Core i5-11400H Processor 6 core/ 15.6''(39.6cms) FHD 144 Hz Display + Xbox Game Pass Ultimate",
-            "price":63990,
+            "price":63990.00,
             "rating":4,
             "image":"https://m.media-amazon.com/images/I/61B+PQExFWL._AC_UY218_.jpg"
         }
@@ -46,7 +46,7 @@
     "clothes" : [{
         "id":"49538094",
         "title":"Gildan Men's Fleece Hooded Sweatshirt, Style G185",
-        "price" : 39.99,
+        "price" : 399.00,
         "rating" : 4,
         "image" : "https://images-na.ssl-images-amazon.com/images/I/41JKAefCFFL.jpg"
     },
@@ -81,7 +81,7 @@
     {
         "id":"49538099",
         "title":"Fancy Walas Presents New Born Baby Summer Wear Baby Clothes 5Pcs Sets 100% Cotton Baby Boys Girls Unisex Baby Cotton/Summer Suit Infant Clothes First Gift for New Born Baby",
-        "price" : 399.00,
+        "price" : 699.00,
         "rating" : 4,
         "image" : "https://m.media-amazon.com/images/I/61WS1eY4LhL._AC_UL320_.jpg"
     }],
@@ -89,21 +89,21 @@
     "gadgets" : [{
         "id":"23445930",
         "title":"Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric",
-        "price" : 98.99,
+        "price" : 988.00,
         "rating" : 5,
         "image" : "https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
     },
     {
         "id":"3254354345",
         "title":"New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)",
-        "price":598.99,
+        "price":44000.00,
         "rating":4,
         "image":"https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
     },
     {
         "id":"4903850",
         "title":"HONOR Band 5 (MeteoriteBlack) - Waterproof Full Color AMOLED Touchscreen",
-        "price" : 199.99,
+        "price" : 1999.00,
         "rating" : 3,
         "image" : "https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
     },
@@ -124,7 +124,7 @@
     {
         "id":"4903853",
         "title":"Cezo 40X60 Magnification Zoom HD,Monocular Telescope for Adults and Children,High Power Telescope Gadget",
-        "price" : 899.00,
+        "price" : 8999.00,
         "rating" : 4,
         "image" : "https://m.media-amazon.com/images/I/51WUHlne1FL._AC_UL320_.jpg"
     }],
@@ -132,7 +132,7 @@
     "accessories" : [{
             "id":"3254434345",
             "title":"Amazon Basics Nylon USB-A to Lightning Cable Cord, MFi Certified Charger for Apple iPhone, iPad, 4,000",
-            "price":12.99,
+            "price":120.00,
             "rating":4,
             "image":"https://images-na.ssl-images-amazon.com/images/I/61stA5Z9W0L._SS400_.jpg"
     },
@@ -146,7 +146,7 @@
     {
     "id":"3254434347",
     "title":"LUZWE 3in1 Lens Kit for Mobile Phone 0.67X-Wide Angle 180-Degree Fish Eye Set of 3 pieces",
-    "price":299.00,
+    "price":2999.00,
     "rating":4,
     "image":"https://m.media-amazon.com/images/I/61JRqUO8zmL._AC_UY218_.jpg"
     },
@@ -175,7 +175,7 @@
     "watches" : [{
         "id":"23448230",
         "title":"SEIKO 14 Ultra-Modern Watch Face Black & Silver Tone with Quiet Sweep Wall Clock",
-        "price":90.00,
+        "price":9000.00,
         "rating":5,
         "image":"https://images-na.ssl-images-amazon.com/images/I/81QvGMQro9L._SY400.jpg"  
     },

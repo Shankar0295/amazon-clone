@@ -1,0 +1,72 @@
+.payment{
+    display: flex;
+    padding: 20px;
+    min-height: 80vh;
+}
+.payment__container{
+    background: #fff;
+    flex: 1;
+}
+.payment__header{
+    text-align: center;
+}
+.payment__title, .payment__address{
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: 10px;
+    margin-right: 10px; 
+}
+.payment__address{
+    border-bottom: 1px solid lightgray;
+}
+.payment__total__block{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment__total__block>h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.payment__total__items{
+    padding-right: 10px;
+}
+.payment__form>input[type=text] {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .payment__form{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .payment__card__details{
+    display: flex;
+  }
+  .payment__card__month{
+    display: flex;
+    flex-direction: column;
+  }
+  .payment__card__month>input[type=text] {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .payment__button{
+    background: #f0c14b;
+    margin-top: 15px;
+    width: 10%;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

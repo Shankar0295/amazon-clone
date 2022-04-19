@@ -77,3 +77,7 @@
     font-weight: 700;
     padding-left: 5px;
 }
+.navbar__locationBlock>a{
+    display: flex;
+    align-items: center;
+}

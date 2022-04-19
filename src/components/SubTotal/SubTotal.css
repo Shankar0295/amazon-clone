@@ -1,0 +1,18 @@
+.subtotal{
+    padding: 20px;
+}
+.subtotal__items{
+    font-size: 18px!important;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subtotal__btn{
+    background: #f0c14b;
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 10px;
+    cursor: pointer;
+}
