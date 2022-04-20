@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './NavBar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -10,6 +10,7 @@ import { signOut } from 'firebase/auth';
 
 const NavBar = () => {
     const [{ cart, user }] = useCartContext();
+    const [userlocation, setUserLocation] = useState("");
     console.log(cart)
 
     const handleAuthentication = () => {
@@ -21,26 +22,33 @@ const NavBar = () => {
             });
         }
     }
-    // const [latitude, setLatitude] = useState('')
-    // const [longitude, setLongitude] = useState('')
+    const location = () => {
+        console.log(navigator.geolocation.getCurrentPosition(success), "da")
 
-    // const location = () => {
-    //     navigator.geolocation.getCurrentPosition((position) => {
-    //         console.log(position)
-    //         setLatitude(position.coords.latitude)
-    //         setLongitude(position.coords.longitude)
-    //         console.log(latitude)
-    //         const res = fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=cadbcd6f8bba31ae6076c71c4f52b6e2`)
-    //             .then((res) => {
-    //                 console.log(res)
-    //             })
-    //         })
-    //     }
+        if ('geolocation' in navigator) {
+            /* geolocation is available */
+            navigator.geolocation.getCurrentPosition(success)
+        } else {
+            /* geolocation IS NOT available */
+            navigator.geolocation.getCurrentPosition(errors)
+        }
+    }
 
-    // useEffect(() => {
-    //     location()
-    // }, [])
+    const success = async (pos) => {
+        var crd = pos.coords;
+        const res = await fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${crd.latitude}&lon=${crd.longitude}&appid=cadbcd6f8bba31ae6076c71c4f52b6e2`)
+        const location = await res.json();
+        setUserLocation(location)
+    }
 
+    const errors = (err) => {
+        alert(`ERROR(${err.code}): ${err.message}`);
+    }
+
+    useEffect(() => {
+        location();
+    }, [])
+    console.log(userlocation)
     return (
         <div className="navbar">
             <Link to="/"><img className="navbar__logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo" /></Link>
@@ -50,7 +58,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar__locationdetails">
                     <span className="navbar__lineOne">Deliver to</span>
-                    <span className="navbar__lineTwo">India</span>
+                    <span className="navbar__lineTwo">{!userlocation ? "India" : `${userlocation[0].name},${userlocation[0].country}`}</span>
                 </div>
             </div>
 
