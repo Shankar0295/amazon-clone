@@ -23,8 +23,6 @@ const NavBar = () => {
         }
     }
     const location = () => {
-        console.log(navigator.geolocation.getCurrentPosition(success), "da")
-
         if ('geolocation' in navigator) {
             /* geolocation is available */
             navigator.geolocation.getCurrentPosition(success)
@@ -36,7 +34,7 @@ const NavBar = () => {
 
     const success = async (pos) => {
         var crd = pos.coords;
-        const res = await fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${crd.latitude}&lon=${crd.longitude}&appid=cadbcd6f8bba31ae6076c71c4f52b6e2`)
+        const res = await fetch(`https://api.openweathermap.org/geo/1.0/reverse?lat=${crd.latitude}&lon=${crd.longitude}&appid=cadbcd6f8bba31ae6076c71c4f52b6e2`)
         const location = await res.json();
         setUserLocation(location)
     }
